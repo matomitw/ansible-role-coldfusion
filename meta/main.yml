@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Matomi
+  description: Ansible role to install and configure Adobe ColdFusion
+  company: Teamwork
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - focal
+  categories:
+    - web
+    - application
+
+dependencies: []
