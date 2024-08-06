@@ -10,11 +10,11 @@
 
 - name: Download ColdFusion installer
   get_url:
-    url: "https://download.adobe.com/pub/adobe/coldfusion/2021/Adobe_ColdFusion_2021_WWEJ_linux64.bin"
-    dest: "/tmp/cf2021_installer.bin"
+    url: "https://download.macromedia.com/pub/coldfusion/updates/14/apimanageraddoninstallers/ColdFusion_2021_APIManager_Addon_WWEJ_linux64.bin"
+    dest: "/tmp/ColdFusion_2021_APIManager_Addon_WWEJ_linux64.bin"
     mode: '0755'
 
 - name: Run ColdFusion installer
-  command: "/tmp/cf2021_installer.bin -f installer.profile"
+  command: "/tmp/ColdFusion_2021_APIManager_Addon_WWEJ_linux64.bin -f installer.profile"
   args:
     creates: "/opt/coldfusion2021"
